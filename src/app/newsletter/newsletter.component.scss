@@ -1,0 +1,100 @@
+@import '../shared/colors';
+
+
+body {
+  min-height: 100vh;
+  color: $DarkSlateGrey;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  padding: 100px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+}
+
+.text-section {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-section {
+  max-width: 400px;
+  padding: 10px;
+}
+
+.text-section h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.text-section p {
+  margin-bottom: 8px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+li img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.text-section span {
+  display: block;
+  margin-top: 20px;
+}
+
+.text-section input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: calc(100% - 10px);
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-section img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.profile-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button {
+  padding: 10px 20px;
+  background-color: $Tomato;
+  color: $White;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: $Tomato;
+}
