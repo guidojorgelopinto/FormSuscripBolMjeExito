@@ -4,8 +4,13 @@
 body {
   min-height: 100vh;
   color: $DarkSlateGrey;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; /* Peso normal (400) para el texto normal */
 }
 
+.negrita {
+  font-weight: 700; /* Peso negrita (700) para el texto en negrita */
+}
 .container {
   width: 90%;
   max-width: 900px;
@@ -53,11 +58,6 @@ li {
 li img {
   width: 20px;
   margin-right: 10px;
-}
-
-.text-section span {
-  display: block;
-  margin-top: 20px;
 }
 
 .text-section input {
