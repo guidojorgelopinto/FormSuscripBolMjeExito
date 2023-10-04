@@ -3,8 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/newsletter', pathMatch: 'full' },
-  { path: 'newsletter', component: NewsletterComponent  },
+  { path: '', component: NewsletterComponent, pathMatch: 'full' },
+  { path: 'newsletter', component: NewsletterComponent },
+
 ];
 
 @NgModule({
